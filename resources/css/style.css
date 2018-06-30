@@ -1,0 +1,153 @@
+/* For Entire Website */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  color: seashell;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+  display:block;
+}
+
+div {
+  display: block;
+}
+
+/* Header */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  alignt-item: center;
+}
+
+header img {
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Landing Page */
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  padding-top:70px;
+  margin: 0px auto;
+  width: 1200px;
+}
+
+#mission .mission-statement {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+/* Tea of the Month Section */
+#featuredtea {
+  padding-top: 70px;
+  margin: 0px auto;
+  width: 1200px;
+}
+
+#featuredtea .tea-of-month-textheadings {
+  margin:auto;
+  width: 100%;
+}
+
+.tea-month-pictures img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-month-pictures span {
+  /*display: flex;
+  justify-content: space-around;*/
+  padding: 10px;
+  display: inline-block;
+}
+
+.tea-month-pictures span h4{
+  display: block;
+  text-align: center;
+}
+
+.ave-tea img {
+  padding-top: 20px;
+}
+
+.bizarre-tea img {
+  padding-top: 20px;
+}
+
+/* Locations Section */
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  padding-top: 70px;
+  margin: 0px auto;
+}
+
+#locations h2{
+  position: relative;
+  text-align: center;
+  height: 58px;
+  top: -200px;
+  left: 490px;
+  margin: 0px auto;
+}
+
+.different-locations {
+  position: relative;
+  top: -40px;
+  right: 100px;
+}
+
+.different-locations span {
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* Contact Section */
+.class-info {
+  width: 1200px;
+  height: 200px;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
